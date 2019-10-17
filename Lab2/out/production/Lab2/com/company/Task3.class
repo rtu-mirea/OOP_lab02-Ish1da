@@ -1,0 +1,16 @@
+﻿Кюєѕ   8 Y
+      java/lang/Object <init> ()V  \d+(,?\d*)*
+ 
+     java/util/regex/Pattern compile -(Ljava/lang/String;)Ljava/util/regex/Pattern;	      com/company/Task3 pat Ljava/util/regex/Pattern;   	     str Ljava/lang/String;  java/util/Scanner	     ! " java/lang/System in Ljava/io/InputStream;
+  $  % (Ljava/io/InputStream;)V	  ' ( ) out Ljava/io/PrintStream; + Р’РІРµРґРёС‚Рµ СЃС‚СЂРѕРєСѓ
+ - . / 0 1 java/io/PrintStream println (Ljava/lang/String;)V
+  3 4 5 nextLine ()Ljava/lang/String;
+ 
+ 7 8 9 matcher 3(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
+ ; < = > ? java/util/regex/Matcher find ()Z
+ ; A B C start ()I
+ ; E F C end
+ H I J K L java/lang/String 	substring (II)Ljava/lang/String; Code LineNumberTable LocalVariableTable this Lcom/company/Task3; Task1 In Ljava/util/Scanner; Ljava/util/regex/Matcher; StackMapTable 
+SourceFile 
+Task3.java !                       M   F     *· *ё 	µ *µ ±    N           	 O        P Q     R   M   +      ±    N        O        P Q     R 1  M   >     *+µ ±    N   
+       O        P Q           S   M   і     >» YІ · #LІ &*¶ ,+¶ 2M*ґ ,¶ 6N-¶ :™ І &,-¶ @-¶ D¶ G¶ ,§яз±    N              !  (  =  O   *    > P Q    3 ! T   &    !  8 U  V    ю !  H ;  W    X
